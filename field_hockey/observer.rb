@@ -43,21 +43,3 @@ fred.add_observer(Observer.new)
 fred.salary = "70000"
 # Salary Update! Fred now makes 70000
 # Salary Update! Fred now makes 70000
-
-
-
-
-module Sort
-  def initialize
-    # code
-  end
-end
-
-class CreateLeague
-  include Sort
-
-  def initialize
-    super()
-    # more code here
-  end
-end

@@ -1,4 +1,5 @@
 class Report
+  # skeleton
   def initialize
     @title = "BlaBlaBla"
   end

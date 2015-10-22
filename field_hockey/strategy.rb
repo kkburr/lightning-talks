@@ -6,6 +6,7 @@ end
 
 
 class HTMLFormatter < Formatter
+  # strategy
   def output_report(title)
     puts( '<head>')
     puts( '<title>#{title}</title>')
@@ -16,6 +17,7 @@ end
 
 
 class PlainTextFormatter < Formatter
+  # strategy
   def output_report(title)
     puts( '***** #{title} ******')
   end
@@ -23,6 +25,7 @@ end
 
 
 class Report
+  # context
   def initialize(formatter)
     @title = "BlaBlaBla"
     @formatter = formatter
